@@ -11,13 +11,13 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
-  --color-primary: "#3bc2fe";
-  --color-secondery: "#9a6ff8";
-  --color-accent: "#0b011d";
-  --color-light: "#c9c7cd";
-  --color-light-gray: "#b5abcb";
-  --color-light-gray2: "#a3acb9";
-  --color-off-white: "#dcdfe3";
+  --color-primary: #3bc2fe;
+  --color-secondary: #9a6ff8;
+  --color-accent: #0b011d;
+  --color-light: #c9c7cd;
+  --color-light-gray: #b5abcb;
+  --color-light-gray2: #a3acb9;
+  --color-off-white: #dcdfe3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,15 +27,9 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer components {
   .container {
-    @apply max-w-[1300px] mx-auto px-4 lg:px-5 xl:px-0;
+    @apply max-w-325 mx-auto px-4 lg:px-5 xl:px-0;
   }
 
   .primary__btn {
@@ -149,4 +143,16 @@ body {
 
 .dropdown__nav__link {
   @apply text-3xl text-light-gray block;
+}
+
+.banner {
+  background: radial-gradient(
+    33.82% 46.83% at 90% 50%,
+    rgba(126, 61, 255, 0.12) 0%,
+    rgba(126, 61, 255, 0) 100%
+  );
+}
+
+.about__tag {
+  @apply inline-flex select-none items-center whitespace-nowrap rounded-md border-2 font-medium transition-all px-2.5 py-0.5 text-[13px] cursor-pointer text-white;
 }

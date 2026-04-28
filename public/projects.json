@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Music School",
+    "description": "This web application that offers role management, personalized dashboards, and payment integration. The application will be built using a tech stack consisting of React and React Router for the frontend, Node.js for the backend, MongoDB as the database, Firebase for authentication, and Stripe for payment processing.",
+    "tech": [
+      { "name": "React", "icon": "https://i.ibb.co/WWG28t2/react.png" },
+      { "name": "Node.js", "icon": "https://i.ibb.co/w6Pk3Qb/node-js.png" },
+      { "name": "Mongodb", "icon": "https://i.ibb.co/D53ysgw/mongo.png" },
+      { "name": "Express", "icon": "https://i.ibb.co/zsRd2Zg/express.png" },
+      { "name": "Firebase", "icon": "https://i.ibb.co/s3LZ8Tj/firebase.png" }
+    ],
+    "thumbnail": "https://i.ibb.co/Wkz30rh/Note-Nexus.png",
+    "image": "https://i.ibb.co/gb2jf3T/Note-Nexus.jpg",
+    "date": "2023",
+    "liveLink": "https://notenexus-81c99.web.app",
+    "clientCode": "https://github.com/Rabby-khan-04/noteNexus-client",
+    "serverCode": "https://github.com/Rabby-khan-04/noteNexus-sever"
+  },
+  {
+    "id": 2,
+    "title": "The Toy Marketplace",
+    "description": "It's a dynamic toy marketplace that offers user registration, login, and secure authentication. The application aims to empower users by allowing them to add and manage their own toy listings, creating a platform for showcasing and selling unique toys.",
+    "tech": [
+      { "name": "React", "icon": "https://i.ibb.co/WWG28t2/react.png" },
+      { "name": "Node.js", "icon": "https://i.ibb.co/w6Pk3Qb/node-js.png" },
+      { "name": "Mongodb", "icon": "https://i.ibb.co/D53ysgw/mongo.png" },
+      { "name": "Express", "icon": "https://i.ibb.co/zsRd2Zg/express.png" },
+      { "name": "Firebase", "icon": "https://i.ibb.co/s3LZ8Tj/firebase.png" }
+    ],
+    "thumbnail": "https://i.ibb.co/2cwLM7b/Toy-Verse-Empire-Home.png",
+    "image": "https://i.ibb.co/q7VD9W6/Toy-Verse-Empire-Home.jpg",
+    "date": "2023",
+    "liveLink": "https://toyverseempire.web.app",
+    "clientCode": "https://github.com/Rabby-khan-04/toyVerseEmpire",
+    "serverCode": "https://github.com/Rabby-khan-04/toyVarse-empire-server"
+  },
+  {
+    "id": 3,
+    "title": "The Italian Recipes",
+    "description": "It's a platform that showcases renowned Italian chefs and their recipes. Users will have the opportunity to explore chef profiles and discover curated recipes by clicking on individual chef pages.",
+    "tech": [
+      { "name": "React", "icon": "https://i.ibb.co/WWG28t2/react.png" },
+      { "name": "Node.js", "icon": "https://i.ibb.co/w6Pk3Qb/node-js.png" },
+      { "name": "Mongodb", "icon": "https://i.ibb.co/D53ysgw/mongo.png" },
+      { "name": "Express", "icon": "https://i.ibb.co/zsRd2Zg/express.png" },
+      { "name": "Firebase", "icon": "https://i.ibb.co/s3LZ8Tj/firebase.png" }
+    ],
+    "thumbnail": "https://i.ibb.co/PZwRPkt/Recipe-Riot.png",
+    "image": "https://i.ibb.co/YhNTPyJ/Recipe-Riot.jpg",
+    "date": "2023",
+    "liveLink": "https://reciperiot.netlify.app",
+    "clientCode": "https://github.com/Rabby-khan-04/Assignment-10-Project",
+    "serverCode": "https://github.com/Rabby-khan-04/recipe-riot-server"
+  },
+  {
+    "id": 4,
+    "title": "Platform for Photography",
+    "description": "he Platform for Photography is a captivating online platform built using React and React Router, showcasing the artistry and creativity of photographers from around the world. With its beautiful design and seamless user experience.",
+    "tech": [
+      { "name": "React", "icon": "https://i.ibb.co/WWG28t2/react.png" },
+      {
+        "name": "React Router",
+        "icon": "https://i.ibb.co/1LjtXpY/react-router.png"
+      },
+      { "name": "Netlify", "icon": "https://i.ibb.co/gzTStrh/ntlify.png" }
+    ],
+    "thumbnail": "https://i.ibb.co/pbpn84Z/Fliq-India.png",
+    "image": "https://i.ibb.co/zhhPRRp/Fliq-India.jpg",
+    "date": "2023",
+    "liveLink": "https://fliqindia.netlify.app",
+    "clientCode": "https://github.com/Rabby-khan-04/fliqInda-assignment"
+  },
+  {
+    "id": 5,
+    "title": "The Tea House",
+    "description": "The Tea House Website is a visually stunning online platform developed using HTML, CSS, and Tailwind CSS. With its captivating design, the website offers a delightful user experience. The elegant layout and carefully selected color palette create a serene ambiance that resonates with the essence of tea culture",
+    "tech": [
+      { "name": "HTML", "icon": "https://i.ibb.co/T2vxvcy/html.png" },
+      {
+        "name": "Tailwind",
+        "icon": "https://i.ibb.co/hW52W6z/tailwind.png"
+      },
+      { "name": "Netlify", "icon": "https://i.ibb.co/gzTStrh/ntlify.png" }
+    ],
+    "thumbnail": "https://i.ibb.co/87tmzfW/Tea-House.png",
+    "image": "https://i.ibb.co/jvFphgy/Tea-House.jpg",
+    "date": "2023",
+    "liveLink": "https://tea-house-1.netlify.app",
+    "clientCode": "https://github.com/Rabby-khan-04/tea-house"
+  },
+  {
+    "id": 6,
+    "title": "The Legal Solution",
+    "description": "The Legal Solution is an innovative online platform built using HTML, CSS, and Tailwind CSS, offering a visually stunning and user-friendly solution for legal professionals and clients. With its beautiful design and intuitive interface",
+    "tech": [
+      { "name": "HTML", "icon": "https://i.ibb.co/T2vxvcy/html.png" },
+      {
+        "name": "Tailwind",
+        "icon": "https://i.ibb.co/hW52W6z/tailwind.png"
+      },
+      { "name": "Netlify", "icon": "https://i.ibb.co/gzTStrh/ntlify.png" }
+    ],
+    "thumbnail": "https://i.ibb.co/c11t5W7/Justice.png",
+    "image": "https://i.ibb.co/yRxTn78/Justice.jpg",
+    "date": "2023",
+    "liveLink": "https://justice-law-firm.netlify.app",
+    "clientCode": "https://github.com/Rabby-khan-04/justice-law-firm"
+  }
+]
