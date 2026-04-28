@@ -22,7 +22,7 @@ const Banner = () => {
   return (
     <motion.section className="banner py-10 sm:py-16 md:py-20 lg:py-32">
       <div className="container grid lg:grid-cols-8 gap-8">
-        <div className="intro lg:col-span-5 space-y-6">
+        <div className="intro lg:col-span-5 space-y-6 self-center">
           <h3 className="text-lg font-semibold text-primary">
             Welcome to a space I’ve built on the web
           </h3>

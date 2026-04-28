@@ -49,7 +49,7 @@ export default Welcome;
   };
 
   return (
-    <figure className="relative flex w-full flex-col overflow-hidden rounded-md border border-gray-200/40 bg-[#0f172a] p-2.5 shadow-2xl dark:border-gray-600/40 h-115">
+    <figure className="relative flex w-full flex-col overflow-hidden rounded-md border border-gray-200/40 bg-[#0f172a] p-2.5 shadow-2xl dark:border-gray-600/40 h-130">
       {/* Header */}
       <header className="mb-2 grid items-center border-b border-gray-800 pb-2 grid-cols-[50px_1fr_50px]">
         <div className="flex gap-1.5">
