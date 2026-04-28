@@ -60,7 +60,7 @@ const Contact = () => {
               <div>
                 <button
                   type="submit"
-                  className="btn__pill__xl text-xl text-light-gray cursor-pointer"
+                  className="btn__pill__xl btn__glass text-xl text-light-gray cursor-pointer"
                 >
                   Soot
                 </button>

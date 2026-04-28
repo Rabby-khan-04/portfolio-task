@@ -58,7 +58,7 @@ const Banner = () => {
             <button
               type="button"
               onClick={handleDownloading}
-              className="outline__btn"
+              className="outline__btn cursor-pointer"
             >
               Resume
             </button>
