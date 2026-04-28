@@ -156,3 +156,11 @@
 .about__tag {
   @apply inline-flex select-none items-center whitespace-nowrap rounded-md border-2 font-medium transition-all px-2.5 py-0.5 text-[13px] cursor-pointer text-white;
 }
+
+.about {
+  background: radial-gradient(
+    33.82% 46.83% at 30% 50%,
+    rgba(126, 61, 255, 0.12) 0%,
+    rgba(126, 61, 255, 0) 100%
+  );
+}
