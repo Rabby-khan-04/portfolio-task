@@ -1,8 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Cursor from "@/component/shared/Cursor";
-import Navbar from "@/component/shared/Navbar/Navbar";
-import Footer from "@/component/shared/Footer";
+import BackToTop from "@/component/shared/BackToTop";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 
@@ -15,10 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <body className={`${inter.className} bg-accent`}>
-        <Navbar />
         <Cursor />
         <main>{children}</main>
-        <Footer />
+        <BackToTop />
       </body>
     </html>
   );

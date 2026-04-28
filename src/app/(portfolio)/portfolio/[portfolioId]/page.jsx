@@ -37,6 +37,8 @@ const SinglePortfolioPage = async ({ params }) => {
     liveLink,
     clientCode,
     serverCode,
+    challenges,
+    improvements,
   } = currentPortfolio;
 
   return (
@@ -86,6 +88,20 @@ const SinglePortfolioPage = async ({ params }) => {
             <p className="text-lg text-light-gray leading-relaxed">
               {description}
             </p>
+
+            <div className="">
+              <h2 className="hero__heading text-[24px]">Challenges:</h2>
+              <p className="text-base text-light-gray leading-relaxed">
+                {challenges}
+              </p>
+            </div>
+
+            <div className="">
+              <h2 className="hero__heading text-[24px]">Improvements:</h2>
+              <p className="text-base text-light-gray leading-relaxed">
+                {improvements}
+              </p>
+            </div>
 
             {/* Links */}
             <div className="flex items-center gap-5 flex-wrap">
